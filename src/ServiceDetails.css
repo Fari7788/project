@@ -1,0 +1,51 @@
+.text16{
+    color: brown;
+    font-size: 35px;
+    font-weight: bold;
+    /* margin-bottom: 60px; */
+    position: relative;
+    bottom:40px;
+    /* margin-top: -10px; */
+    padding-right: 120px;
+    padding-top: 20px;
+
+}
+.text17{
+    padding-left: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    /* padding-top: 5px; */
+
+}
+.text17:hover{
+    color: rgb(255, 255, 255);
+    background-color: brown;
+    cursor: pointer;
+}
+.picture{
+    background-image: url(about-large.6671879c65a5ccb178b8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 30%;
+    height: 50vh;
+    width: 40vw;
+    margin-top: 50px;
+}
+.input2::placeholder{
+    position: relative;
+    right:10px;
+}
+.text-area{
+    position: relative;
+    top: 25px;
+    /* border: 2px solid black; */
+    border: none;
+}
+.box-line{
+    margin-top: 20px;
+    display: flex;
+    padding: 20px;
+    width: 37vw;
+    background-color: white;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;}

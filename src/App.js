@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
+import React, { useState } from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './Home';
+import Contact from './Contact';
+import Navbar from './Navbar';
+import Service from './Service';
+import About from './About';
+import Projects from './Projects';
+import Service1 from './Service1';
+import ServiceDetails from './ServiceDetails';
+const App = () => {
+  const [Data, setData] = useState(0);
+  const [Data1, setData1] = useState('hey');
+  const [Data2, setData2] = useState('tttt');
+  const [Data3, setData3] = useState('Ali');
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <BrowserRouter>
+        <Navbar/>
+        <Routes>
+        <Route path='/Projects' element={<Projects/>}/>
+          <Route path='/' element={<Home />} />
+          <Route path='/Contact' element={<Contact />} />
+          <Route path='/About' element={<About />} />
+          <Route path='/Service' element={<Service />} />
+          <Route path='/Service1' element={<Service1 />} />
+          <Route path='/ServiceDetails' element={<ServiceDetails />} />
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 
 export default App;
+

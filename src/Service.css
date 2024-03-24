@@ -1,0 +1,27 @@
+.box14{
+    background-image: url(seedling-vector-silhouette-260nw-748751122.webp);
+    width: 70px;
+    height: 70px;
+    background-size: cover;
+    display: flex;
+    margin-top: 30px;
+    
+}
+.text15{
+color: brown;
+/* color:aliceblue; */
+font-size: 20px;
+font-weight: bold;
+margin-top: 25px;
+}
+.text16{
+    text-align: center;
+    margin-top: 35px;
+}
+.box17{
+    background-color: white;
+}
+.box17:hover{
+    background-color: aqua;
+    
+}

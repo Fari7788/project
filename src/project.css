@@ -1,0 +1,106 @@
+.img-box {
+    background-image: url(Tree-planting-at-Bishan-Ang-Mo-Kio-Park.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* color: rgba(165, 42, 42, 0.42); */
+    overflow: hidden;
+}
+
+.show {
+    display: none;
+}
+
+.img-box:hover .show {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+    gap: 5px;
+    background-color: rgba(165, 42, 42, 0.839);
+    animation: anime 0.5s ease-in-out forwards;
+}
+
+@keyframes anime {
+    0% {
+        margin-top: 500px;
+    }
+
+
+
+}
+.cont-one{
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    margin-top: 120px;
+    gap: 50px;
+}
+.cont-oneLite{
+    height: 400px;
+    width: 300px;
+
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    gap: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.img-cont{
+    border-top: 1px solid black;
+    background-image: url(Tree-planting-at-Bishan-Ang-Mo-Kio-Park.jpg);
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    margin-top: 50px;
+}
+.dataa{
+    height: 40px;
+}
+.data{
+border-bottom: 5px solid brown;
+padding-bottom: 0;
+/* color: brown; */
+position: relative;
+top: 3px;
+}
+.data1{
+    border-bottom: 5px solid brown;
+    
+    padding-bottom: 0;
+
+    position: relative;
+    top: 3px;
+    }
+    .data2{
+        border-bottom: 5px solid brown;
+        padding-bottom: 0;
+
+        position: relative;
+        top: 3px;
+        }
+        .data3{
+            border-bottom: 5px solid brown;
+            padding-bottom: 0;
+
+            position: relative;
+            top: 3px;
+            }
+            .data4{
+                border-bottom: 5px solid brown;
+                padding-bottom: 0;
+
+                position: relative;
+                top: 3px;
+                }
+                
+            .data5{
+                border-bottom: 5px solid brown;
+                padding-bottom: 0;
+
+                position: relative;
+                top: 3px;
+                }
